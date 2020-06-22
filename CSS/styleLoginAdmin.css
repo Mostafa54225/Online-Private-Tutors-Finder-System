@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding:0;
+	/*background: linear-gradient(to right, #FFFFBE, #E5E5E5);*/
+	background: url('../Images/5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/* First Page Style */
+
+
+/* The under line of title (Admin)*/
+.title-underline{
+	width:250px;
+	height: 2px;
+	background-color: #E4FFF9;
+	display: none;
+	position: relative;
+}
+/**************/
+
+
+
+/*The Left Side of The page*/
+#header_title{
+	margin-top: 50%;
+}
+/**************/
+
+
+#login_header{
+	 margin: auto;
+}
+
+/*The Box which contains the form*/
+#form_box{
+	border-radius: 20px; 
+	margin:80px 0px 0px ;
+	/*box-shadow: -3px 1px 40px -2px rgba(0,0,0,.9);*/
+	background: rgba(0,0,0,.2);
+}
+/***************/
+.label{
+	margin-top: 0px;
+}
+
+
+/*Field style*/
+.form-control{
+	background: transparent;
+	background: none;
+	outline: none;
+	border: 0px;
+	border-radius: 0px;
+	/*border-bottom:1px solid black;*/
+	font-size: 18px;
+}
+.form-control:focus{
+	border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+
+span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top:17%;
+	left:4%;
+	color:white;
+	margin: 0px 10;
+	transform: translateY(-50%);
+	z-index:-1;
+	transition:.5s;
+}
+span::after{
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background: linear-gradient(120deg, #E4FFF9, #F375F3);
+	transition:.5s;
+}
+.focus + span::before{
+	top: -5px;
+}
+.focus + span::after{
+	width:94%;
+}
+/************************/
+
+
+/*Modal Color*/
+.modal-content{
+	/*background: linear-gradient(to right, #FFFFBE, #E5E5E5);*/
+	background: rgba(0,0,0,.3);
+}
+/*******/
+
+ 
+#cvInput{
+	float: left;
+	width:100%;
+}
+
+#cvButton{
+	border:none;
+	columns: black
+}
+#cvButton:hover{
+	background:none;
+	color:black;
+}

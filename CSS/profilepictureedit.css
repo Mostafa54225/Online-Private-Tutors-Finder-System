@@ -1,0 +1,29 @@
+#profilecard{
+   margin-top: 20px; 
+   width: 30rem; 
+  height: 40rem;
+  margin-left: 30px;
+  background-color: #FD7E14;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, .4);;
+}
+#edit{
+  margin-left: 150px;
+}
+#title{
+  color: aliceblue;
+}
+#emailandnumber{
+  color: aliceblue;
+}
+#manage{
+  margin-left: 20px;
+  margin-top: 60px;
+  width: 60rem;
+}
+#Requestedtutors{
+  color: #343A40;
+  font-size: 50px;
+}
+#tableheader{
+  color: aliceblue;
+}

@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+} 	
+#welcome{
+	min-height: 90vh; 
+	background-image: url('../Images/4.jpg');
+	background-position: center;
+	background-size:cover;  
+}
+.centerHidden{
+	padding-top:200px; 
+}
+
+#btnT{
+	width: 340px; 
+	margin-left:120px;
+}
+
+#btnP{
+	width: 340px; 
+	margin-right:50px
+}

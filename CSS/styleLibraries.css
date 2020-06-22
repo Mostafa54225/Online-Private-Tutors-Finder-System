@@ -1,0 +1,22 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.settingStyle{
+	min-height:100vh;
+	border-radius:0 !important;
+}
+
+.title-underline{
+	width:0px;
+	height: 2px;
+	background-color: #E4FFF9;
+	margin:12px auto; 
+	left: 0;
+}
+#manageBooks{
+	height: 400px;
+	margin-top: 70px; 
+	box-shadow: -3px 1px 20px -2px rgba(0,0,0,.9);
+}
